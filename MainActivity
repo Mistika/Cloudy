@@ -114,7 +114,7 @@ public class MainActivity extends ActionBarActivity implements ConnectionCallbac
         } else {
             Toast.makeText(MainActivity.this, "Could not find your location!", Toast.LENGTH_LONG).show();
         }
-        String APIKey = "71e3dbfb4ebeb4dc3bcfb07097bb3645";
+        String APIKey = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx";
         String forecastUrl = "https://api.forecast.io/forecast/"
                 + APIKey + "/"
                 + mLatitude
